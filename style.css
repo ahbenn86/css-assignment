@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+}
+
+.nav {
+  background-color: black;
+}
+
+.nav a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #c6bfbf;
+}
+
+section {
+  display: flex;
+  grid-column-gap: 50px;
+}
+
+.container__footer {
+  background-color: #0b4d14;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  margin: 10px;
+}
+
+.container__footer a:link {
+  color: white;
+  text-decoration: none;
+}
