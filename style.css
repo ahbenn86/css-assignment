@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Arial");
+
+
+body {
+  font-family: "Arial", sans-serif;
+  
+}
+
 .container {
   display: grid;
 }
@@ -13,6 +21,7 @@
 
 .header {
   background-color: #c6bfbf;
+  justify-content: space-between;
 }
 
 section {
